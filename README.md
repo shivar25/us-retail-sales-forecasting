@@ -4,23 +4,17 @@ This project applies time series forecasting techniques to predict US monthly re
 
 **Project Objectives**
 
-Load and clean historical US retail sales data
+Load and clean historical US retail sales data.
 
-Perform time series decomposition and visualization
+Perform time series decomposition and visualization.
 
-Build and evaluate a SARIMA model for forecasting future retail sales
+Build and evaluate a SARIMA model for forecasting future retail sales.
 
-Measure forecast performance using RMSE
+Measure forecast performance using RMSE.
 
 **Technologies Used**
 
-Python
-
-pandas, numpy, matplotlib, seaborn
-
-statsmodels (SARIMA)
-
-scikit-learn (for evaluation)
+Python, pandas, numpy, matplotlib, seaborn, statsmodels (SARIMA), scikit-learn (for evaluation).
 
 **Dataset**
 
@@ -36,8 +30,8 @@ Forecasts were generated and compared with test data to evaluate model accuracy.
 
 **Results**
 
-Trend and seasonal patterns identified
+Trend and seasonal patterns identified.
 
-Forecasts aligned closely with historical trends
+Forecasts aligned closely with historical trends.
 
-Model performance evaluated using Root Mean Squared Error (RMSE)
+Model performance evaluated using Root Mean Squared Error (RMSE).
