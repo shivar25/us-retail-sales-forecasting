@@ -1,23 +1,43 @@
 **US Retail Sales Forecasting**
 
-This project forecasts monthly US retail sales using the SARIMA model. It explores trends and seasonality in the data and evaluates model performance using RMSE.
+This project applies time series forecasting techniques to predict US monthly retail sales using the SARIMA model. The objective is to analyze trends, seasonality, and future patterns in sales data sourced from the US Census Bureau.
 
-**Objectives**
+**Project Objectives**
 
-Clean and visualize retail sales data.
+Load and clean historical US retail sales data
 
-Build a SARIMA model for time series forecasting.
+Perform time series decomposition and visualization
 
-Evaluate predictions against actual sales.
+Build and evaluate a SARIMA model for forecasting future retail sales
 
-**Tools**
+Measure forecast performance using RMSE
 
-Python (pandas, matplotlib, statsmodels, scikit-learn)
+**Technologies Used**
+
+Python
+
+pandas, numpy, matplotlib, seaborn
+
+statsmodels (SARIMA)
+
+scikit-learn (for evaluation)
+
+**Dataset**
+
+Source: US Census Bureau
+
+Data Type: Monthly sales figures (seasonally adjusted)
+
+**Model**
+
+SARIMA (Seasonal ARIMA): Selected after analyzing data stationarity, seasonality, and autocorrelation.
+
+Forecasts were generated and compared with test data to evaluate model accuracy.
 
 **Results**
 
-Clear seasonal trends identified.
+Trend and seasonal patterns identified
 
-SARIMA generated forecasts with reasonable accuracy.
+Forecasts aligned closely with historical trends
 
-RMSE used to assess model performance.
+Model performance evaluated using Root Mean Squared Error (RMSE)
