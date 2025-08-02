@@ -1,4 +1,4 @@
-## US RETAIL SALES FORECASTING
+# US RETAIL SALES FORECASTING
 
 This project applies time series forecasting techniques to predict US monthly retail sales using the SARIMA model. The objective is to analyze trends, seasonality, and future patterns in sales data sourced from the US Census Bureau.
 
